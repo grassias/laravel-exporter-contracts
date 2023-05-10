@@ -1,5 +1,5 @@
 {
-    "name": "renoki-co/laravel-exporter-contracts",
+    "name": "grassias/laravel-exporter-contracts",
     "description": "Base contracts implementation for Prometheus exports in Laravel.",
     "keywords": [
         "laravel",
@@ -20,9 +20,9 @@
     "require": {
         "php": "^8.0",
         "promphp/prometheus_client_php": "^2.4",
-        "illuminate/config": "^8.83|^9.0.1",
-        "illuminate/routing": "^8.83|^9.0.1",
-        "illuminate/support": "^8.83|^9.0.1"
+        "illuminate/config": "^8.83|^9.0.1|^10.0",
+        "illuminate/routing": "^8.83|^9.0.1|^10.0",
+        "illuminate/support": "^8.83|^9.0.1|^10.0"
     },
     "autoload": {
         "psr-4": {
